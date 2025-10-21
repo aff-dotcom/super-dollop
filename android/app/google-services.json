@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "590805636916",
+    "project_id": "fripesfinderv2",
+    "storage_bucket": "fripesfinderv2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590805636916:android:6c6a8a96d125f6acfc3761",
+        "android_client_info": {
+          "package_name": "com.example.fripesfinderv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590805636916-45ug4fttv06br1jkkvdpc1u116b8uesd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs8aWf1PWZ6ZL3uBuz4NRm-tIPa4rEQMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590805636916-0aca85shq5mtvgftjto3brgnt57p0lcc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "590805636916-j6k8hm0adkcoab9feu0idnaefj7f2jef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fripesfinderv2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
