@@ -1,0 +1,84 @@
+name: fripesfinderv2
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  # On cible Dart 3.5 minimum (Standard actuel fin 2024 / 2025)
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Design System
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.2.1
+  badges: ^3.1.2
+  flutter_animate: ^4.5.0
+  cached_network_image: ^3.4.1
+  intl: ^0.19.0             # Version stable standard
+  google_fonts: ^6.2.1      # Souvent utile, je l'ajoute au cas où (optionnel)
+
+  # State Management
+  provider: ^6.1.2
+
+  # Firebase (Dernières versions stables)
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  firebase_auth_web: ^5.12.0
+  cloud_firestore: ^5.4.3
+  firebase_storage: ^12.3.2
+  firebase_messaging: ^15.1.3
+
+  # Maps & Location
+  google_maps_flutter: ^2.10.0
+  google_maps_flutter_web: ^0.5.9
+  google_maps_cluster_manager: ^3.0.0
+  geolocator: ^13.0.1       # Version moderne et stable
+
+  # Utils
+  image_picker: ^1.1.2
+  flutter_local_notifications: ^17.2.2
+  shared_preferences: ^2.3.2
+  uuid: ^4.5.1
+  logger: ^2.4.0
+  file_picker: ^8.1.2       # 10.x est parfois beta, 8.x est très stable
+  flutter_js: ^0.8.1
+
+  # Auth
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0     # Règles standard pour Dart 3
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/autumn_flower.png
+    - lib/assets/black_corset.PNG
+    - lib/assets/black_yellows_diamonds.PNG
+    - lib/assets/blue_ceramic.PNG
+    - lib/assets/blue_strips.PNG
+    - lib/assets/blue_tartan.PNG
+    - lib/assets/crimson_petals.PNG
+    - lib/assets/cute_birds.PNG
+    - lib/assets/feline_spot.PNG
+    - lib/assets/green_tiles.PNG
+    - lib/assets/pink_blue_flowers.PNG
+    - lib/assets/pink_lace.PNG
+    - lib/assets/shining_dress.PNG
+    - lib/assets/starlit_jeans.PNG
+    - lib/assets/sunrise.PNG
+    - lib/assets/zebra.PNG
+    - lib/assets/tenue1.png
+    - lib/assets/tenue2.png
+    - lib/assets/tenue3.png
+    - lib/assets/tenue4.png
+    - lib/assets/tenue5.png
+    - lib/assets/tenue6.png
+    - lib/assets/tenue7.png
+    - lib/assets/tenue8.png
+    - lib/assets/tenue9.png
+
